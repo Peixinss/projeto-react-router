@@ -1,0 +1,25 @@
+{
+  "name": "projeto-react-router",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Peixinss/projeto-react-router#readme",
+  "bugs": {
+    "url": "https://github.com/Peixinss/projeto-react-router/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peixinss/projeto-react-router.git"
+  },
+  "license": "ISC",
+  "author": "Renan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "vite": "^8.3.3"
+  }
+}
