@@ -10,7 +10,7 @@ const estiloBotao = {
     backgroundColor: '#007bff',
     color: '#ffffff'
 }
-export default BotaoNavegacao({ rota, texto }){
+export default function BotaoNavegacao({ rota, texto }){
     const navigate = useNavigate();
     return(
         <button onClick={() => navigate(rota)} style={estiloBotao}>
